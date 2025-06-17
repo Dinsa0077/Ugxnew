@@ -39,20 +39,20 @@ import zipfile
 import shutil
 import ffmpeg
 
-OWNER = int(os.environ.get("OWNER",7958597957))
+OWNER = int(os.environ.get("OWNER",8172163893))
 try: 
     ADMINS=[7958597957] 
-    for x in (os.environ.get("ADMINS", "7958597957").split()):  
+    for x in (os.environ.get("ADMINS", "8172163893").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
 ADMINS.append(OWNER)
 
 # Define the owner's user ID
-OWNER_ID = 7958597957 # Replace with the actual owner's user ID
+OWNER_ID = 8172163893 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [7958597957]
+SUDO_USERS = [8172163893]
 
 AUTH_CHANNEL = -1002334036141
 
